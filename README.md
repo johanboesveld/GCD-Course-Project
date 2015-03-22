@@ -16,11 +16,11 @@ The R script called run_analysis.R that does the following:
 - Appropriately labels the data set with descriptive variable names. 
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-*note: from every measured signal in the experiment, a lot of variables were created in the dataset, for this project I will extract only the mean and standard deviation, in this case the features (variables) that end on -mean() and -std()*
+*note: from every measured signal in the experiment, a lot of variables were created in the dataset, for this project I will extract only the mean and standard deviation for each measurement, to be exact: the features (variables) that end on mean() and std()*
 
 ##Processing steps
 - download the data-set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - unzip this file, this will create a directory called "UCI HAR Dataset"
-- Open R-studio and set the working directory to the "UCI HAR Dataset" directory
-- Run the R script "run_analysis.R" you find in this repo, this will create a tidy dataset "tidyresult."with the average of each variable for each activity and each subject.
+- Open R-Studio and set the working directory to the "UCI HAR Dataset" directory
+- Run the R script "run_analysis.R" you find in this repo in R-Studio, this will create a tidy dataset "tidyresult."with the average of each variable for each activity and each subject.
 
