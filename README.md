@@ -2,9 +2,9 @@
 Course Project for the Getting and Cleaning Data Course (John Hopkins University)
 
 ##This repo includes the following files:
-- this README.md file
-- one R script called run_analysis.R 
-- the accompanying CodeBook.md that describes the variables, the data, and the transformations performed to clean up the data
+-this README.md file
+-one R script called run_analysis.R 
+-the accompanying CodeBook.md that describes the variables, the data, and the transformations performed to clean up the data
  
 ##Project Description
 The goal of this project is to show my ability to collect, work with, and clean a data set. In this project I will prepare tidy data that can be used for later analysis.  
@@ -20,7 +20,7 @@ note: *From every measured signal in the experiment, a lot of variables were cre
 
 ##Processing steps
 - download the data-set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-- unzip this file, this will create a directory called "UCI HAR Dataset"
-- Open R-studio and set the working directory to the "UCI HAR Dataset" directory
-- Run the R script "run_analysis.R" you find in this repo, this will create a tidy dataset "tidyresult."with the average of each variable for each activity and each subject.
+-unzip this file, this will create a directory called "UCI HAR Dataset"
+-Open R-studio and set the working directory to the "UCI HAR Dataset" directory
+-Run the R script "run_analysis.R" you find in this repo, this will create a tidy dataset "tidyresult."with the average of each variable for each activity and each subject.
 
