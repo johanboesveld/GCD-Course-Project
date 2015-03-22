@@ -36,7 +36,7 @@ The script run_analysis.R processe the raw datasets to create a tidy data set:
 *note: from every measured signal in the experiment, a lot of variables were created in the dataset, for this project I will extract only the mean and standard deviation for each measurement, to be exact: the features (variables) that end on mean() and std()*
 
 ##Variables
-The new tidy data set contains 68 variables:
+The new tidy data set contains 180 observations (30 subjects x 6 activities) with 68 variables:
 
 - Subject: identifier of who carried out the experiment, values: 1-30.
 - Activity: label describing the performed activity,values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
